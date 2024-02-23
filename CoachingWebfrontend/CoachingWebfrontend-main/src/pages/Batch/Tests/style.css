@@ -1,0 +1,51 @@
+.Test {
+    width: 50%;
+}
+
+.Test .Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Test .Body{
+    margin-top: 2rem;
+}
+
+.TestTile{
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 8rem;
+    padding: 1rem 1rem;
+    color:#aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TestTile .Header{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.TestTile .Header > t1{
+    font-weight: 500;
+}
+
+.TestTile .Header > t2{
+    color: #aaa;
+}
+
+.TestTile .Author{
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.TestTile .Date{
+    display: flex;
+    align-items: center;
+    color: #aaa;
+}

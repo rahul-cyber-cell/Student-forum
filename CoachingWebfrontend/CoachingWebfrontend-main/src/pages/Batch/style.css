@@ -1,0 +1,49 @@
+.VerticalTabPanel .MuiTabs-flexContainerVertical {
+  background-color: #ffffff;
+  height: 90vh;
+  border-right: 1px solid #aaa;
+}
+
+.VerticalTabPanel {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  height: 90vh;
+}
+
+.VerticalTabPanel .MuiTabs-scroller {
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  height: 90vh !important;
+  background-color: #ffffff;
+}
+
+.VerticalTabPanel .MuiTab-root {
+  padding: 0 1rem;
+  width: 15rem !important;
+  height: 90vh !important;
+  display: flex;
+  flex-direction: row !important; 
+}
+
+
+.VerticalTabPanel .MuiTabs-scroller::-webkit-scrollbar {
+  display: none; 
+}
+
+.VerticalTabPanel .MuiTab-root:nth-child(n) {
+  justify-content: flex-start;
+  margin: 0 !important;
+  color: #555;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.TabPanel { 
+  overflow-x: hidden;
+  height: 90%; 
+  padding: 2%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #eeeeee;
+}

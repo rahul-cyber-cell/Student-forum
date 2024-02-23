@@ -1,0 +1,59 @@
+.Assignment .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.Assignment .Body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Assignment .Body .empty{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AssignmentTile{
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 8rem;
+    padding: 1rem 1rem;
+    color:#aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AssignmentTile .Header{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.AssignmentTile .Header > t1{
+    font-weight: 500;
+}
+
+.AssignmentTile .Header > t2{
+    color: #aaa;
+}
+
+.AssignmentTile .Author{
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.AssignmentTile .Date{
+    display: flex;
+    align-items: center;
+    color: #aaa;
+}

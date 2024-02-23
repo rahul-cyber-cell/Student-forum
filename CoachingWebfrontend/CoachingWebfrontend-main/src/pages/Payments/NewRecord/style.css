@@ -1,0 +1,54 @@
+.newRecord {
+    width: 75%;
+    height: 500px;
+    margin-top: 130px;
+    border: 1px solid #eeeeeea1;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.header img {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.header h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    /* display: flex; */
+    margin-top: 40px;
+    /* justify-content: space-evenly; */
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondRow {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thirdRow {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourthRow {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}

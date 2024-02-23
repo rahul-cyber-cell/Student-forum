@@ -1,0 +1,94 @@
+.AssignmentPage{
+    width: 100%;
+}
+
+.AssignmentPage .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.AssignmentPage .Details{
+    width: 75%;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.AssignmentPage .Details .Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.AssignmentPage .Details .Header .gp1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -1rem;
+}
+
+.AssignmentPage .t1{
+    font-weight: 600;
+}
+
+.AssignmentPage .t2{
+    color:#888;
+}
+
+.AssignmentPage .Details .Body .t1{
+    margin: 1rem 0;
+}
+
+.AssignmentPage .StudentList{
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.AssignmentPage .StudentList .Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.AssignmentPage .StudentList .Header .t3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.AssignmentPage .StudentList .Header .search-txt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AssignmentPage .StudentList .Body{
+    display: flex;
+    flex-direction: column;
+}
+
+.AssignmentPage .StudentList .Body .Assignment__StudentTile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border:0.5px solid #ccc;
+    border-left: none; border-right: none;
+}
+
+.AssignmentPage .StudentList .Body .Assignment__StudentTile .prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AssignmentPage .StudentList .Body .Assignment__StudentTile .prof .Cred{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+}

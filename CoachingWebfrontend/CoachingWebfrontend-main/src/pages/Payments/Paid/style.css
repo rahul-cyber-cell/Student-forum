@@ -1,0 +1,53 @@
+.payment {
+    display: flex;
+}
+
+.paid {
+    width: 135%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 100px;
+}
+
+.payment-amount {
+    display: flex;
+    height: auto;
+    position: relative;
+}
+
+.payment-amount h2 {
+    padding-right: 60px;
+}
+
+.payment-amount button {
+    height: 36px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rightCard {
+    width: 244px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.search p {
+    padding-top: 5px;
+    color: #979797;
+}

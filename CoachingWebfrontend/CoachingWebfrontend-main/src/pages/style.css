@@ -1,0 +1,36 @@
+.Root {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.Root .MuiTab-root {
+  height: 10vh;
+  background-color: #ffffff;
+}
+
+.Root .MuiTabs-root {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 0.5px solid #ccc;
+}
+.Root .MuiTab-root:nth-child(n) {
+  width: max-content;
+  margin: 0;
+  margin-top: 3px !important;
+}
+
+.Root .Root__TabPanel {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 90vh;
+  background-color: #eeeeee;
+}
+
+.Root .Root__TabPanel::-webkit-scrollbar {
+    width: 5px;
+}
+
+.Root .Root__TabPanel .css-19kzrtu {
+  padding: 0px !important;
+}

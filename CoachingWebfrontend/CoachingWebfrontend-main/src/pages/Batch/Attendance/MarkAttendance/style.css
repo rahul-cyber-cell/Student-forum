@@ -1,0 +1,120 @@
+.MarkAttendance{
+    height: 75rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.MarkAttendance .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.MarkAttendance .dataTab{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.MarkAttendance .dataTab .icon{
+    margin-right: 1rem;    color: #888;
+}
+
+.MarkAttendance .dataTab > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.MarkAttendance .Body1 .dataTab > div > t1{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom:0.5rem;
+    color: #888;
+}
+
+.MarkAttendance .Body1 .dataTab > div > t2{
+    font-size: 1.1rem;
+    color:black
+}
+
+.MarkAttendance .Body2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.MarkAttendance .Body2 .dataTab{
+    width: 50%;
+}
+
+.MarkAttendance .Body2 .dataTab > div > t3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.MarkAttendance .Body3 {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.MarkAttendance .Body3 .Topic-Sect{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    align-items: flex-start;
+
+}
+
+.DateComp{
+    width: 7rem;
+    border: 0.5px solid #aaa;
+}
+
+.DateComp .Month{
+    color:#fff;
+    background-color: rgb(255, 31, 106);
+    padding: 0.25rem;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.DateComp .Date{
+    padding-bottom: 0.1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.DateComp .Day{
+    padding-bottom: 0.1rem;
+    color:#888;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.MarkAttendance .Body4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 10rem;
+}
+
+.StudentListElement{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AccordianList{
+    width: 95%;
+}
+
+.StudentListElement > t1{
+    font-weight: 500;
+}

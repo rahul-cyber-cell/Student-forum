@@ -1,0 +1,43 @@
+.Students{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Students .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Students .Heading .MuiTextField-root{
+    width:20rem;
+}
+
+.Students .Body{
+    width:95%;
+    height:40rem;
+    margin:1rem auto;
+    background-color: #fff;
+}
+
+.Students .Body .TabMenu{
+    border-bottom: 1px solid #aaa;
+    justify-content: space-between;
+}
+
+.Students .Body .MuiTab-root{
+    height: 3rem;
+    width: 10rem;
+    justify-content: center;
+    margin:0;
+}
+
+.StudentTile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.5px solid #ccc;
+}

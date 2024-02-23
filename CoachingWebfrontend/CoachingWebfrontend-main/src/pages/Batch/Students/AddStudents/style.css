@@ -1,0 +1,259 @@
+.Dialog0{
+    height: 30rem;
+    width: 30rem;
+}
+
+.Dialog0 .CloseBtn{
+    position: absolute;
+    right:0;
+    margin: 0.5rem;
+}
+
+.Dialog0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dialog0 .ModeBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    border-bottom: 0.5px solid #ccc;
+    font-size:1.5rem;
+    cursor: pointer;
+    color:#888;
+}
+
+.Dialog0 .ModeBtn:hover{
+    background-color: #eee;
+}
+
+.Dialog0 .ModeBtn .icon{
+    font-size: 2.5rem;
+    font-weight: 10;
+    color: rgb(0, 132, 255);
+}
+
+.Dialog0 .ModeBtn > t1{
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 10%;
+    font-weight: 500;
+    color: rgb(4, 103, 160);
+}
+
+.Dialog0 .Foot{
+    background-color: #eee;
+    width: 100%;
+    padding: 0.4rem 0;
+    text-align: center;
+    font-size: 0.85rem;   
+}
+
+.Dialog1{
+    height: 25rem;
+}
+
+.Dialog1 .CloseBtn{
+    position: absolute;
+    margin:1rem;
+    right:0;
+}
+
+.Dialog1 .BackBtn{
+    position: absolute;
+    margin:1rem;
+    left:0;
+}
+
+.Dialog1 .Heading{
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.Dialog1 .Body .FormGrid{
+    width: 100%;
+}
+.Dialog1 .Body .FormGrid .FormCol{
+    width: 33%;
+    padding: 1rem;
+}
+
+.Dialog1 .Body .FormGrid .FormCol .MuiTextField-root{
+    margin-bottom: 1rem;
+}
+
+.Dialog1 .MandText{
+    position: absolute;
+    bottom:0;
+    margin:2rem;
+}
+
+.Dialog1 .SaveBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+}
+
+.Dialog3{
+    height: 25rem;
+}
+
+.Dialog3 .CloseBtn{
+    position: absolute;
+    margin:1rem;
+    right:0;
+}
+
+.Dialog3 .BackBtn{
+    position: absolute;
+    margin:1rem;
+    left:0;
+}
+
+.Dialog3 .Heading{
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.Dialog3 .Body{
+    height: 65%;
+}
+
+.Dialog3 .Empty-Body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    color:#888;
+    height: 100%;
+}
+.Dialog3 .Empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.Dialog3 .Empty > p{
+    width: 30rem;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.Dialog3 .icon{
+    font-size: 2.5rem;
+    font-weight: 10;
+    color: rgb(0, 132, 255);
+}
+
+.Dialog3 .Empty-Body > t1{
+    font-size: 0.9rem;
+    margin:1rem auto ;
+    font-weight: 500;
+    color: rgb(4, 103, 160);
+}
+
+.Dialog3 .Foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17%;
+}
+
+.Dialog3 .FileBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Dialog3 .FileBox .icon{
+    font-size: 8rem;
+}
+
+.Dialog3 .FileBox > p2{
+    font-size: 1.1rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.FileBox .icon2{
+    font-size: 2rem;
+    margin-left: 2rem;
+    opacity: 0.5;
+}
+.FileBox .icon2:hover{
+    opacity: 1;
+}
+
+.Dialog3 .FileBox > t3{
+    color: #888;
+}
+
+
+.Dialog2{
+    overflow: hidden;
+    height: 50rem;
+}
+.Dialog2 .Heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Dialog2 .Heading .CloseBtn{
+    position: absolute;
+    right: 0;
+    margin:1rem;
+}
+
+.Dialog2 .Body{
+    height: 75%;
+    overflow-y:scroll;
+}
+
+.Dialog2 .Body .StudentTile{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.25px solid #ccc;
+    border-top: 0.25px solid #ccc;
+    padding: 1rem 0;
+}
+
+.Dialog2 .Body .StudentTile .StudentCred{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Dialog2 .Body .StudentTile .StudentCred > p1{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1rem;
+}
+
+.Dialog2 .Body .StudentTile .StudentCred > p1 > p2{
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.Dialog2 .SaveBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin:1rem;
+}

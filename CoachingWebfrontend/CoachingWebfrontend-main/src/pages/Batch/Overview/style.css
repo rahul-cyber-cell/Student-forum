@@ -1,0 +1,236 @@
+
+.Batch{
+    height: 18rem;
+    padding: 2rem;
+    width: 100%;
+    margin: 1rem 0;
+    margin-top:0;
+}
+
+.Batch .Heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Batch .Heading .btns{
+    display: flex;
+    flex-direction: row;
+}
+
+.Batch__col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.Batch__data{
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+    font-size: 1.2rem;
+    width: 15rem;
+    color: #888888;
+}
+
+
+.Batch__data > span.Batch__title{
+    padding-left: 1rem;
+    font-size: 1rem;
+    color:#000;
+}
+
+.Batch__data p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+.Batch__empty{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#2196f3 !important;
+}
+
+.Batch__empty:hover{cursor: pointer;}
+
+.LiveClass{
+    width: 100%;
+    margin: 1rem 0;
+    margin-top: 0;
+}
+
+p{
+    margin: 0.5rem;
+}
+
+.LiveClass-dialog{
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-top: 0;
+}
+
+.LiveClass-dialog .MuiButton-outlined{
+    margin: 0.5rem auto;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.zoom-icon{
+    width: 2rem;
+    padding-right:0.5rem;
+}
+
+.ZoomClass .Heading{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.Announcement-dialog{
+    margin: 1.7rem 0;
+    margin-top: 0;
+    padding:1rem;
+}
+
+.Announcement-dialog .Heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.Announcement-dialog .Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+}
+
+.Announcement-icon{
+    transform: rotateZ(-45deg);
+    width: 5rem;
+}
+
+.TimeTable{
+    margin: 1rem 0;
+    margin-top: 0;
+    width: 109%;
+}
+
+.TimeTable .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.TimeTable .Body .MuiTab-root{
+    width: 15rem;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+}
+
+.TimeTable .Body .TabPanel{
+    height: 20rem;
+    overflow: hidden;
+}
+
+.TimeTable .Body .TabPanel .empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.TimeTable .Body .TabPanel .empty > p1{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.TimeTable .Body .TabPanel .empty > p2{
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.Overview__dialog{
+    height: 30rem;
+    width: 37rem;
+    overflow-x: hidden;
+}
+
+.Overview__dialog .Heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #aaa;
+}
+
+.Overview__dialog .Body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 70%;
+}
+
+.Overview__dialog .Input2__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Overview__dialog .Input1{
+    margin: 1rem;
+    width: 40%;
+}
+
+.Overview__dialog .Input2{
+    width: 90%;
+    margin:1rem;
+}
+
+.Overview__dialog .Footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid #aaa;
+}
+
+.LazyBox{
+    margin: 1rem;
+}
+
+.LazyBox .Body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10rem;
+}
+
+.LazyBox .Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.LazyBox .Body .Overview__tile{
+    width: 100%;
+    border: 0.5px solid #ccc;
+    border-left: none; border-right: none;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.CreateTest{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+}
+
+.CreateTest > .Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.CT_Stage2{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.CT_Stage2 > .Stage2__Sec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.CT_Stage2 > .Stage2__Sec2 > .AddFile_btn{
+    border: 1px dashed black;
+    margin: 1rem;
+    padding: 0.5rem auto;
+}
+
+.CT_Stage2 > .Stage2__Sec2 > .Sec2__questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.CT_Stage2 > .Stage2__Sec3 {
+    margin: 1rem;
+}
+
+.CT_Stage2 > .Stage2__Sec3 > .Sec3__Duration > .buttons{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

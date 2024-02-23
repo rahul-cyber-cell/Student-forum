@@ -1,0 +1,124 @@
+.careTakerSettings, .feeStructures, .taxDetails {
+    width: 130%;
+    margin-left: 100px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    border: 5px;
+    position: relative;
+}
+
+.careTakerHeading {
+    margin-bottom: 30px;
+}
+
+.owner {
+    margin-bottom: 35px;
+}
+
+.ownerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.careTaker {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.careTakerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ownerDetails .number {
+    padding-left: 100px;
+}
+
+.careTakerDetails .number {
+    position: absolute;
+    left: 41%;
+}
+
+.careTakerFirstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.careTakerFirstRow .button {
+    margin-right: 30px;
+}
+
+.remove-button {
+    text-align: right;
+    position: absolute;
+    right: 55px;
+}
+
+.feeStructures, .taxDetails {
+    margin-top: 30px;
+    position: relative;
+}
+
+.fesStructureHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feeAddButton {
+    margin-right: 30px;
+}
+
+.studentDetails {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.studentDetails .row {
+    display: flex;
+    align-items: center;
+}
+
+.studentEditButton {
+    position: absolute;
+    right: 200px;
+}
+
+.studentRemoveButton {
+    position: absolute;
+    right: 50px;
+    vertical-align: middle;
+}
+
+.taxDetailHeading {
+    margin-bottom: 40px;
+}
+
+.billingDetails, .gstDetails, .tax, .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.addCareTaker {
+    display: flex;
+    justify-content: space-around;
+}
+
+

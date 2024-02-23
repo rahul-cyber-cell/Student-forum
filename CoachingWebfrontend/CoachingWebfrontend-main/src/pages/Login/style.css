@@ -1,0 +1,54 @@
+.LoginPage{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginPage > .LoginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginContainer > h5{
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.LoginContainer > h4{
+    margin-top: 25%;
+    font-size: 2rem;
+}
+
+.Step1, .Step2{
+    width: 20rem;
+    padding: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Step2{
+    height: 20rem;
+}
+
+.Step1 > .registerBtn{
+    margin-top: 2.5rem;
+    text-decoration: none;
+    color:rgb(23, 151, 255);
+    font-weight: 500;
+    padding: 1rem;
+    transition: border 0.2s;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.Step1 > .registerBtn:hover{
+    border: 1px solid rgb(23, 151, 255);
+    border-radius: 5px;
+}
